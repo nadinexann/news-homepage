@@ -1,9 +1,9 @@
 body{
-    background-color: Off-white;
+    background-color: whitesmoke;
 }
 .container {
     display: grid;
-    background-color: Off-white;
+    background-color: whitesmoke;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows:minmax(50px, auto);
     grid-gap: 30px;
