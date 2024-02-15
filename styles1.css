@@ -1,5 +1,132 @@
+body{
+    background-color: Off-white;
+}
 .container {
     display: grid;
-    grid-template-columns: 3fr;
-    background-color: lightgrey;
+    background-color: Off-white;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows:minmax(50px, auto);
+    grid-gap: 30px;
+
+}
+div.header {
+    display: flex;
+    grid-column:2/8;
+    grid-row:2/3;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+div.bigImage{
+    display: flex;
+    grid-column:2/4;
+    grid-row:3/3;
+    justify-content: flex-start;
+}
+div.blackBox{
+    display: flex;
+    grid-column:6/8;
+    grid-row: 3/5;
+    background-color: black;
+    flex-direction: column;
+    font-family: Inter, system-ui;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+p.header{
+    font-size: 25px;
+    color: gray;
+    font-family: Inter, system-ui;
+    word-spacing: 30px;
+}
+h1.new{
+    display: flex;
+    color: orange;
+    font-size: 50px;
+}
+h3{
+    color:white;
+
+}
+p{
+    color:lightgrey;
+}
+div.bigTitle{
+    display: flex;
+    grid-column:2/4;
+    grid-row: 4/5;
+    font-size: 40px;
+    font-family: Inter, system-ui;
+}
+div.button{
+    display: flex;
+    grid-column:4/6;
+    grid-row: 4/5;
+}
+div.first{
+    display: flex;
+    grid-column:2/4;
+    grid-row: 5/7;
+}
+div.second{
+    display: flex;
+    grid-column:4/6;
+    grid-row: 5/7;
+}
+div.third{
+    display: flex;
+    grid-column:6/8;
+    grid-row: 5/7;
+}
+p.text{
+    color: black;
+    font-family: Inter, system-ui;
+    font-size: 20px;
+}
+div.button{
+    display: flex;
+    flex-direction: column;
+}
+div.partButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    font-family: Inter, monospace;
+    width:15rem;
+    height: 4rem;
+}
+h3{
+    font-size: 25px;
+    font-family: Inter, system-ui;
+}
+p.blackBox{
+    font-size: 18px;
+    font-family: Inter, system-ui;
+}
+h1{
+    font-size: 40px;
+    color: lightgrey;
+    font-family: Inter, system-ui;
+}
+h1.bigTitle{
+    color: black;
+    font-size: 50px;
+}
+div.first{
+    font-family: Inter, system-ui;
+}
+div.second{
+    font-family: Inter, system-ui;
+}
+div.third{
+    font-family: Inter, system-ui;
+}
+div.boxText{
+    border-bottom:1px solid lightgrey;
+}
+div.smallText{
+    margin-left: 15px;
 }
