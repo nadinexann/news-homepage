@@ -102,6 +102,9 @@ h3{
     font-size: 25px;
     font-family: Inter, system-ui;
 }
+h2{
+    font-size: 22px;
+}
 p.blackBox{
     font-size: 18px;
     font-family: Inter, system-ui;
@@ -116,12 +119,18 @@ h1.bigTitle{
     font-size: 50px;
 }
 div.first{
+    display: flex;
+    align-items: flex-end;
     font-family: Inter, system-ui;
 }
 div.second{
+    display: flex;
+    align-items: flex-end;
     font-family: Inter, system-ui;
 }
 div.third{
+    display: flex;
+    align-items: flex-end;
     font-family: Inter, system-ui;
 }
 div.boxText{
